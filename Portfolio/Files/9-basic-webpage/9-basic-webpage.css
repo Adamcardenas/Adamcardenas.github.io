@@ -1,0 +1,117 @@
+:root {
+    --nl-white: rgb(255, 255, 255);
+    --nl-light-gray: rgb(210, 211, 211);
+    --nl-dark-navy: rgb(0, 23, 31);
+    --nl-regular-navy: rgb(0, 52, 89);
+    --nl-regular-blue: rgb(0, 126, 167);
+    --nl-bright-blue: rgb(0, 168, 232);
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header {
+    background-color: var(--nl-regular-navy);
+    color: var(--nl-white);
+    margin-bottom: 20px;
+}
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+header .content-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#logo {
+    font-family: 'Audiowide', cursive;
+    font-size: 24px;
+    float: left;
+}
+nav {
+    float: right;
+    padding-top: 5px;
+}
+nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ol li {
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ol li:last-child {
+    margin-right: 0;
+}
+nav ol li a {
+    text-decoration: none;
+    padding: 3px;
+}
+nav ol li a:link {
+    color: var(--nl-white);
+}
+nav ol li a:hover {
+    border-radius: 3px;
+    padding: 10px;
+    color: var(--nl-regular-navy);
+    background-color: var(--nl-white);
+}
+#enframed-section {
+    border: 2px solid var(--nl-dark-navy);
+    background-color: var(--nl-light-gray);
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section {
+    border: none;
+}
+.main-content {
+    float: left;
+    width: 70%;
+    margin-right: 0 auto;
+    overflow: hidden;
+}
+.side-bar {
+    float: right;
+    width: 29%;
+    border-left: 1px solid var(--nl-light-gray);
+    box-sizing: border-box;
+}
+.side-bar ul li {
+    padding-bottom: 10px;
+}
+footer {
+    width: 100%;
+    display: inline-block;
+}
+#footer-main {
+    background-color: var(--nl-light-gray);
+}
+.footer-box {
+    display: inline-block;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: -4px;
+    vertical-align: top;
+    text-align: center;
+}
+#copyright-box {
+    border-top: 2px solid var(--nl-dark-navy);
+    text-align: center;
+    padding: 10px;
+    background-color: var(--nl-regular-navy);
+    color: var(--nl-white);
+}

@@ -1,0 +1,121 @@
+:root {
+    --blue: rgba(69, 181, 233, 0.845);
+    --purple: rgba(181, 78, 232, 0.575);
+    --green: rgb(11, 130, 11);
+    --black: rgb(0, 0, 0);
+    --light-gray: rgba(212, 212, 212, 0.459);
+    --white: rgb(255, 255, 255);
+}
+body {
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--light-gray);
+}
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+header {
+    background-color: var(--blue);
+    justify-content: space-between;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+header a {
+    text-decoration: none;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--green);
+}
+header .content-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    padding: 10px;
+}
+section {
+    margin: 10px;
+    width: auto;
+    background-color: var(--white);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+section a {
+    text-decoration: none;
+    color: var(--green);
+}
+.demo {
+    padding: 10px;
+    text-decoration: none;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--green);
+}
+.demo:hover {
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--green);
+    background-color: var(--white);
+    border: 1px solid var(--green);
+}
+section div {
+    display: flex;
+    margin-bottom: 5px;
+}
+img {
+    height: 200px;
+    width: 400px;
+    border: 1px solid var(--black);
+    margin: 5px;
+}
+#section-8 img {
+    height: 100px;
+    width: 140px;
+}
+footer {
+    background-color: var(--purple);
+    padding: 10px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#footer-information {
+    text-align: center;
+}
+.information {
+    padding: 10px;
+    display: inline-flex;
+}
+.information a {
+    color: var(--green);
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+    .pictures {
+        display: inline;
+     }
+}
+
+@media screen and (min-width: 481px) and (max-width: 660px) {
+     .pictures {
+        display: inline;
+     }
+}
+
+@media screen and (min-width: 661px) and (max-width: 1024px) {
+    .pictures {
+        display: inline;
+     }
+}

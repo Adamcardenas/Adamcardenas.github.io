@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+section.main-container {
+    height: 100%;
+}
+#main-content {
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(198, 239, 252);
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#side-bar {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(195, 252, 219);
+    padding: 25px;   
+    box-sizing: border-box;
+    position: fixed;
+}

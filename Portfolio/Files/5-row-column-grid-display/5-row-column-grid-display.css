@@ -1,0 +1,32 @@
+.row {
+    margin-bottom: 10px;
+}
+
+.col {
+    border: 1px solid rgb(36, 108, 241);
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: calc(1% - 4px);
+}
+.col:last-child {
+    margin-right: 0;
+}
+.col-1 {
+    width: calc(8.33% - 0.916%)
+}
+.col-2 {
+    width: calc(16.66% - 0.83%)
+}
+.col-3 {
+    width: calc(25% - 0.75%);
+}
+.col-4 {
+    width: calc(33.33% - 0.666%);
+}
+.col-6 {
+    width: calc(50% - 0.5%);
+}
+.col-12 {
+    width: 100%
+}
