@@ -105,11 +105,6 @@ footer {
 @media screen and (max-width: 480px) {
     .pictures {
         display: inline;
-
-     }
-     img {
-        height: 5%;
-        width: 80%;
      }
 }
 
