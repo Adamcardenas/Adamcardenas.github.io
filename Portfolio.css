@@ -103,7 +103,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .pictures {
+    img {
         display: inline;
         height: 100;
         width: 200;
@@ -111,7 +111,7 @@ footer {
 }
 
 @media screen and (min-width: 481px) and (max-width: 660px) {
-     .pictures {
+     img {
         display: inline;
         height: 100;
         width: 200;
@@ -119,7 +119,7 @@ footer {
 }
 
 @media screen and (min-width: 661px) and (max-width: 1024px) {
-    .pictures {
+    img {
         display: inline;
      }
 }
