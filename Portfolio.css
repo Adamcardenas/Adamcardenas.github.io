@@ -103,23 +103,28 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    img {
+    .pictures {
         display: inline;
-        height: 100;
-        width: 200;
+
+     }
+    img {
+        height: auto;
+        width: auto;
      }
 }
 
 @media screen and (min-width: 481px) and (max-width: 660px) {
-     img {
+     .pictures {
         display: inline;
-        height: 100;
-        width: 200;
+     }
+     img {
+        height: auto;
+        width: auto;
      }
 }
 
 @media screen and (min-width: 661px) and (max-width: 1024px) {
-    img {
+    .pictures {
         display: inline;
      }
 }
