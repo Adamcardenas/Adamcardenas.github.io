@@ -113,6 +113,8 @@ footer {
 @media screen and (min-width: 481px) and (max-width: 660px) {
      .pictures {
         display: inline;
+        height: 100;
+        width: 200;
      }
 }
 
