@@ -55,6 +55,7 @@ section a {
 }
 .demo {
     padding: 10px;
+    font-weight: bolder;
     text-decoration: none;
     background-color: var(--green);
     color: var(--white);
